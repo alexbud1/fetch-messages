@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, MetaData, Table, Column, BigInteger, Date,  Integer, String, Boolean ,DateTime
 from sqlalchemy.orm import declarative_base, registry, sessionmaker
 
-engine = create_engine('postgresql://zyjydzupswlfrc:f308076f28f531f352d49eaf6394045ceaa58205891e7e3f4414f3e49ae52d7c@ec2-52-212-228-71.eu-west-1.compute.amazonaws.com/d5vdm7bq7rbg8d', echo=True)
+engine = create_engine('', echo=True)
 
 Base = declarative_base()
 
